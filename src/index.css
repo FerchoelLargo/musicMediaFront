@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --main-height: calc(100vh - 60px);
+  --main-color: #007bff;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+*{ font-family: "Lato-Regular"; }
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
 }
+body::-webkit-scrollbar{ width:10px; }
+body::-webkit-scrollbar-button{ display: none; }
+body::-webkit-scrollbar-track {background:#F3F0F0;} 
+body::-webkit-scrollbar-thumb {background-color:#dad8d8; }
+body::-webkit-scrollbar-thumb:hover {  background-color:#8F969B; }
+
+code { font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; }
+
+/*
+  font-family: "Lato-Black";
+  font-family: "Lato-BlackItalic";
+  font-family: "Lato-Bold";
+  font-family: "Lato-BoldItalic";
+  font-family: "Lato-Italic";
+  font-family: "Lato-Light";
+  font-family: "Lato-LightItalic";
+  font-family: "Lato-Regular";
+  font-family: "Lato-Thin";
+  font-family: "Lato-ThinItalic";
+*/
+
+.big-title-size{
+  font-family: "Lato-Bold";
+  font-size: 45px;
+}
+
+.title-size{
+  font-family: "Lato-Bold";
+  font-size: 37px;
+}
+
+.sub-title-size{
+  font-size: 25px;
+}
+
+.normal-size{ font-size: 18px; }
+
+.z-elevation1{box-shadow: 0 2px 1px -1px rgba(0,0,0,.2), 0 1px 1px 0 rgba(0,0,0,.14), 0 1px 3px 0 rgba(0,0,0,.12);}
+.z-elevation2{ box-shadow: 0 3px 1px -2px rgba(0,0,0,.2), 0 2px 2px 0 rgba(0,0,0,.14), 0 1px 5px 0 rgba(0,0,0,.12); }
+.z-elevation3 {box-shadow: 0 3px 3px -2px rgba(0,0,0,.2), 0 3px 4px 0 rgba(0,0,0,.14), 0 1px 8px 0 rgba(0,0,0,.12);}
+.z-elevation4 { box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12); }
+.z-elevation5 { box-shadow: 0 3px 5px -1px rgba(0,0,0,.2), 0 5px 8px 0 rgba(0,0,0,.14), 0 1px 14px 0 rgba(0,0,0,.12); }

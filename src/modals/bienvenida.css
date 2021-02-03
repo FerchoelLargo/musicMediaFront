@@ -1,0 +1,12 @@
+.modal.show.modal-bienvenida .modal-content .modal-header{
+  background-color: var(--main-color);
+}
+
+.modal.show.modal-bienvenida .modal-content .modal-header .modal-title {
+  flex-direction: column;
+  width: 100%;
+}
+
+.modal.show.modal-bienvenida .modal-content .modal-header .modal-title img{
+  height: 60px;
+}
